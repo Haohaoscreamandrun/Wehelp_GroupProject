@@ -1,13 +1,13 @@
-body{
+body {
   min-height: 95vh;
 }
-.section-all-county{
+.section-all-county {
   position: relative;
 }
-.section-all-county::after{
+.section-all-county::after {
   content: "";
   position: absolute;
-  background-image: url("/images/sky.jpg") ;
+  background-image: url("/images/sky.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -17,18 +17,18 @@ body{
   bottom: 0px;
   left: 0px;
 }
-.container-all-county{
+.container-all-county {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-.title-all-county{
+.title-all-county {
   width: 1200px;
   font-size: 34px;
   margin-top: 30px;
   text-align: center;
 }
-.all-county-publish-time{
+.all-county-publish-time {
   display: block;
   width: 1000px;
   font-size: 18px;
@@ -46,30 +46,30 @@ path {
   transition: 0.5s;
   cursor: pointer;
 }
-.main-container{
+.main-container {
   display: flex;
   justify-content: center;
 }
-.svg-container{
+.svg-container {
   margin-top: 10px;
 }
-.table-container{
+.table-container {
   display: flex;
   justify-content: center;
 }
-.main-weather-table{
+.main-weather-table {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin:20px 0px;
-  max-width: 720PX;
+  margin: 20px 0px;
+  max-width: 720px;
 }
-.weather-table-content{
+.weather-table-content {
   font-size: 22px;
   width: 100%;
 }
 
-.weather-table-content > .row{
+.weather-table-content > .row {
   display: flex;
   justify-content: center;
   /* padding: 5px 0px; */
@@ -77,112 +77,112 @@ path {
 .row:nth-child(even) {
   background-color: lightgrey;
 }
-.weather-table-content > .row > div{
+.weather-table-content > .row > div {
   /* margin-right: 10px; */
   padding: 10px 10px;
   text-align: center;
 }
-.county-name{
+.county-name {
   cursor: pointer;
 }
-.rain-pop{
+.rain-pop {
   display: inline;
   padding: 5px 15px;
 }
-.weather-table-content > .row > div >span{
+.weather-table-content > .row > div > span {
   padding: 5px 10px;
 }
 .highlight {
-  fill: rgb(229, 156, 88); 
-  background-color: rgba(229, 156, 88, 0.5); 
+  fill: rgb(229, 156, 88);
+  background-color: rgba(229, 156, 88, 0.5);
 }
-.discord-icon{
+.discord-icon {
   vertical-align: bottom;
   width: 25px;
   height: 25px;
   cursor: pointer;
-  transform: translate(0px,2px);
+  transform: translate(0px, 2px);
 }
-.umbrella-icon{
+.umbrella-icon {
   vertical-align: auto;
   width: 15px;
   height: 15px;
   margin-right: 5px;
-  transform: translate(0px,2px);
+  transform: translate(0px, 2px);
 }
 
-@media (min-width:601px) and (max-width: 1200px) {
-  .title-all-county{
+@media (min-width: 601px) and (max-width: 1200px) {
+  .title-all-county {
     font-size: 30px;
   }
 
   svg {
     height: 80vh;
   }
-  .all-county-publish-time{
+  .all-county-publish-time {
     width: 300px;
   }
-  .main-container{
+  .main-container {
     flex-wrap: wrap;
   }
-  .weather-table-content{
+  .weather-table-content {
     font-size: 18px;
     width: 100%;
   }
-  .weather-table-content > .row{
+  .weather-table-content > .row {
     display: flex;
     justify-content: center;
     margin: 0px;
   }
-  .weather-table-content > .row > div{
+  .weather-table-content > .row > div {
     /* margin: 5px 5px; */
     padding: 10px 8px;
   }
-  .weather-table-content > .row > div >span{
+  .weather-table-content > .row > div > span {
     padding: 5px 8px;
   }
 }
 @media (max-width: 600px) {
-  .title-all-county{
+  .title-all-county {
     font-size: 20px;
   }
-  .all-county-publish-time{
+  .all-county-publish-time {
     font-size: 14px;
   }
   svg {
     height: 50vh;
   }
-  .all-county-publish-time{
+  .all-county-publish-time {
     width: 300px;
   }
-  .main-container{
+  .main-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
-  .weather-table-content{
+  .weather-table-content {
     width: 100%;
     /* margin-top: 30px; */
     font-size: 12px;
   }
-  .weather-table-content > .row{
+  .weather-table-content > .row {
     display: flex;
     justify-content: center;
     margin: 0px;
   }
-  .weather-table-content > .row > div{
+  .weather-table-content > .row > div {
     /* margin: 5px 0px 5px 5px;
     padding: 0px 2px; */
     padding: 5px 0px 5px 5px;
   }
-  .weather-table-content > .row > div >span{
+  .weather-table-content > .row > div > span {
     padding: 5px 0px 5px 5px;
   }
-  .rain-pop{
+  .rain-pop {
     display: inline;
     padding: 5px 0px 5px 5px;
   }
-  .discord-icon{
+  .discord-icon {
     width: 18px;
     height: 18px;
     margin-left: 5px;
